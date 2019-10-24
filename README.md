@@ -14,3 +14,15 @@ I use atom and git bash.
 [referrence URL in japanese](https://sinsoku.hatenadiary.org/entry/20111025/1319497900)  
 
 ***
+
+## merge remoto(github) to local(git)  
+[local:master@atom]  discard something in stage of master  
+
+master@remoto -->>  master@local  
+[local:master@bush]  ```git pull origin master```  
+
+*If trouble occurs, follow the steps below*  
+[local:master@bush]  ```git merge --abort```  
+[local:master@bush]  ```git reset --hard HEAD```  
+ 
+
