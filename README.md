@@ -21,8 +21,10 @@ I use atom and git bash.
 master@remoto -->>  master@local  
 [local:master@bush]  ```git pull origin master```  
 
-*If trouble occurs, follow the steps below*  
+*If trouble occurs, follow the steps below.*  
 [local:master@bush]  ```git merge --abort```  
 [local:master@bush]  ```git reset --hard HEAD```  
- 
 
+*If trouble coours, you can also force to merge.*  
+[local:master@bush]  ```git fetch origin master```  
+[local:master@bush]  ```git reset --hard origin/master```  
