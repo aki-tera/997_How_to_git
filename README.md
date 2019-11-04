@@ -5,8 +5,8 @@ I use atom and git bash.
 ***
 
 ## back to old Commits
-[local:branch-name@atom]git reset --hard "Commits id which you want to be"  
-[local:branch-name@atom]git push -f origin HEAD^:branch-name  
+[local:branch-name@bush]git reset --hard "Commits id which you want to be"  
+[local:branch-name@bush]git push -f origin HEAD^:branch-name  
 
 ***
 
