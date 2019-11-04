@@ -4,6 +4,12 @@ I use atom and git bash.
 
 ***
 
+## back to old Commits
+[local:branch-name@atom]git reset --hard "Commits id which you want to be"  
+[local:branch-name@atom]git push -f origin HEAD^:branch-name  
+
+***
+
 ## merge develop's branch to master's branch  
 [local:develop@atom]  push feche buttom if you need to merge remoto ato github.  
 [local:develop@atom]  discard something in stage of develop.  
