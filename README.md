@@ -38,6 +38,6 @@ master@remoto -->>  master@local
 ***
 
 ## clone a repository on GitHub to local(git)  
-You get URL of clone.
+You get URL of clone.  
 [local:master@bush]  ```git clone git@github.com:aki-tera/997_How_to_git.git```
 
