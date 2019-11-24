@@ -3,6 +3,11 @@
 I use atom and git bash.  
 
 ***
+## reflect master in develop 
+[local:master@bush]git checkout master  
+[local:master@bush]git pull origin master  
+[local:develop@bush]git checkout develop  
+[local:develop@bush]git rebase master  
 
 ## back to old Commits
 [local:branch-name@bush]git reset --hard "Commits id which you want to be"  
