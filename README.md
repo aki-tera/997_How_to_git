@@ -3,6 +3,9 @@
 I use atom and git bash.  
 
 ***
+## discard files(unsaged changes)
+[local:master@bush]```git checkout .```  
+
 ## reflect master in develop 
 [local:master@bush]git checkout master  
 [local:master@bush]git pull origin master  
