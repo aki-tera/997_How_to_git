@@ -3,6 +3,10 @@
 I use atom and git bash.  
 
 ***
+## delete branch 
+[local:master@bush]git branch --merged  
+[local:master@bush]```git branch --delete develop```
+
 ## discard files(unsaged changes)
 [local:master@bush]```git checkout .```  
 
