@@ -3,6 +3,14 @@
 I use atom and git bash.  
 
 ***
+## fetch from remote
+[local:master@bush]git fetch origin master
+
+## push local to remote
+[local:master@VSCode]you commite files.  
+[local:master@bush]git push origin master  
+
+
 ## delete branch 
 [local:master@bush]git branch --merged  
 [local:master@bush]```git branch --delete develop```
