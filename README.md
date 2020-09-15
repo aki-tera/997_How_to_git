@@ -3,8 +3,11 @@
 I use atom and git bash.  
 
 ***
-## fetch from remote
-[local:master@bush]git fetch origin master
+## fetch from remote  
+## (pull = fetch + merge, fetch:master@remote -> origin/master@local, merge:origin/master@local -> master@local)
+you must operate the follow in order.  
+[local:master@bush]git fetch origin master  
+[local:master@bush]git pull origin master
 
 ## push local to remote
 [local:master@VSCode]you commite files.  
