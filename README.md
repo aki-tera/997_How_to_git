@@ -3,6 +3,25 @@
 I use atom and git bash.  
 
 ***
+## How to write comment
+- feat: A new feature
+   - 新しい機能
+- fix: A bug fix
+   - バグの修正
+- docs: Documentation only changes
+   - ドキュメントのみの変更
+- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+   - 空白、フォーマット、セミコロン追加など
+- refactor: A code change that neither fixes a bug nor adds a feature
+   - 仕様に影響がないコード改善(リファクタ)
+- perf: A code change that improves performance
+   - パフォーマンス向上関連
+- test: Adding missing or correcting existing tests
+   - テスト関連
+- chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
+   - ビルド、補助ツール、ライブラリ関連
+
+***
 ## fetch from remote  
 ## (pull = fetch + merge, fetch:master@remote -> origin/master@local, merge:origin/master@local -> master@local)
 you must operate the follow in order.  
