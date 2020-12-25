@@ -1,7 +1,16 @@
 # 997_How_to_git
 
-I use atom and git bash.  
+I use atom/VS Code and git bash.  
 
+***
+## How to add all
+
+|-|New Files|Modified Files|Deleted Files|Current Directory|Subordinate directory|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|git add -u|×|○|○|○|×|
+|git add -A|○|○|○|○|×|
+|git add .|○|○|○|○|○|  
+  
 ***
 ## How to write comment
 - feat: A new feature
