@@ -92,3 +92,11 @@ master@remoto -->>  master@local
 You get URL of clone.  
 [local:master@bush]  ```git clone git@github.com:aki-tera/997_How_to_git.git```
 
+## How to display the tree by Git Bash
+[local:master@bush]  ```git graph```
+  
+Add the following to "$HOME/.gitconfig" or "/etc/gitconfig"  
+```
+[alias]  
+    graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+```
