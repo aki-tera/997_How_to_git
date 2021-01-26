@@ -2,6 +2,9 @@
 
 I use atom/VS Code and git bash.  
 
+## English!
+https://qiita.com/Ted-HM/items/7dde25dcffae4cdc7923
+
 ***
 ## How to add all
 
