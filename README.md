@@ -5,9 +5,10 @@ I use atom/VS Code and git bash.
 ## English!
 https://qiita.com/Ted-HM/items/7dde25dcffae4cdc7923
 
+***
 ## How to batch update pip packages
-You run the following command by powershell.
-```pip3 install --upgrade ((pip3 freeze) -replace '==.+','')```
+You run the following command by powershell.  
+```pip3 install --upgrade ((pip3 freeze) -replace '==.+','')```  
 
 ***
 ## How to add all
