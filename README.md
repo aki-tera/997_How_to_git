@@ -76,6 +76,14 @@ you must operate the follow in order.
 [local:master@atom]  discard something in stage of master  
 [local:master@bush]  ```git merge --no-ff develop```  
 
+## merge develop's file to master  
+[local:develop@bush] git add file-a
+[local:develop@bush] git commit -m "comment"
+[local:develop@bush] git checkout main
+[local:main@bush]    git checkout develop file-a
+[local:main@bush]    git push origin main
+
+
 [referrence URL in japanese](https://sinsoku.hatenadiary.org/entry/20111025/1319497900)  
 
 ***
