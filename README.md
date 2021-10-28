@@ -46,8 +46,8 @@ you must operate the follow in order.
 [local:master@bush]git pull origin master
 
 ## push a specific local branch to remote
-[local:master@VSCode]you commite files.  
-[local:master@bush]git push origin master  
+[local:main@VSCode]you commite files.  
+[local:main@bush]git push origin main:main  
 
 ## push local to remote
 [local:master@VSCode]you commite files.  
