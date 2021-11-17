@@ -120,3 +120,14 @@ Add the following to "$HOME/.gitconfig" or "/etc/gitconfig"
 [alias]  
     graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 ```
+
+***
+## change pass phrase of id_rsa
+[local@windows command prompt]  ```ssh-keygen -p -f ~/.ssh/id_rss```  
+[local@windows command prompt]  Enter old passphrase: [Type old passphrase]  
+[local@windows command prompt]  Key has comment 'your_email@example.com'  
+[local@windows command prompt]  Enter new passphrase (empty for no passphrase): [Type new passphrase]  
+[local@windows command prompt]  Enter same passphrase again: [Repeat the new passphrase]  
+[local@windows command prompt]  Your identification has been saved with the new passphrase.  
+
+
